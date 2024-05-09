@@ -1,0 +1,139 @@
+#center 
+{
+ -fx-background-color  :  linear-gradient(lightskyblue , lightsteelblue);
+ -fx-border-color      : white;
+ -fx-border-radius     : 20;
+ -fx-padding           : 10 10 10 10;
+ -fx-background-radius : 20;
+  
+}
+ /*-fx-background-color  :  linear-gradient(lightgray, gray);*/
+#header 
+{
+    -fx-background-color  :  linear-gradient(#012138 , navy);
+  
+}
+
+#footer
+{
+    -fx-background-color  :  linear-gradient(#012138 , navy);
+    -fx-border-color      : white;
+    -fx-border-radius     : 20;
+    -fx-padding           : 10 10 10 10;
+    -fx-background-radius : 20;
+}
+
+#leftSidebar
+{
+    -fx-background-color  :  linear-gradient(white , lightskyblue);
+}
+
+#rightSidebar
+{
+    
+}
+
+#attachPanel
+{
+    -fx-background-color  :  linear-gradient(white , lightskyblue);
+}
+
+#btnLogin 
+{
+    -fx-background-radius : 30, 30, 29, 28;
+    -fx-padding           : 3px 10px 3px 10px;
+    -fx-background-color  : linear-gradient(lightgreen , green);
+    -fx-font-weight       : bold;
+
+}
+ 
+#text 
+{
+ -fx-fill   :  linear-gradient(lightblue , white);
+}
+
+.thumbnails
+{
+    -fx-effect           : dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-padding          : 10;
+    -fx-background-color : firebrick;
+    -fx-background-radius: 5;
+}
+
+.text-field
+{
+    -fx-background-color: -fx-text-box-border, -fx-background ;
+    -fx-background-insets: 0, 0 0 2 0 ;
+    -fx-background-radius: 0 ;
+}
+
+.text-field:focused 
+{
+    -fx-background-color: -fx-focus-color, -fx-background , white ;
+}
+.error
+{
+    /*-fx-background-color  : -fx-text-box-border, -fx-background , red;*/
+    -fx-border-color : red ;
+    -fx-border-width : 1.5 ; 
+    -fx-border-style :  solid outside line-join round  ;
+}
+.combo-box .combo-box-popup .list-view, .combo-box .combo-box-popup .list-cell 
+{
+    -fx-background-color : #3C9AFF ;
+    -fx-text-fill        : white ;
+    -fx-font-family      : "Calibri" ;
+    
+}
+.combo-box .combo-box-popup .list-cell:hover 
+{
+    -fx-text-fill        : white ;
+    -fx-background-color : gray ;
+    -fx-font-weight      : bold;
+}
+
+.table-view .column-header-background .filler 
+{
+    -fx-background-color: transparent;
+    -fx-text-fill        : white ;
+}
+.table-view .corner 
+{
+    -fx-background-color: transparent;
+}
+.table-view .column-header-background
+{
+    -fx-background-color: linear-gradient(to bottom, #3C9AFF, #fff);
+    -fx-padding          : 0 0 5px 0;
+    -fx-text-fill        : black ;
+}
+.table-view .column-header 
+{
+    -fx-background-color: transparent;
+}
+.table-view .table-cell
+{
+    -fx-border-color : transparent;
+    -fx-padding      : 2 0 2 10px;
+    -fx-text-fill    : black ;
+    
+}
+.table-row-cell:hover 
+{
+    -fx-alignment             : center ;
+    -fx-background-color      : #cedcee;
+    -fx-text-background-color : #fff;
+    -fx-font-weight           : bold;
+}
+.table-row-cell:odd
+{
+    -fx-background-color: #fff;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+.table-row-cell:even
+{
+    -fx-background-color: #cedcee;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
